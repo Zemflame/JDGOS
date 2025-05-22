@@ -1,16 +1,14 @@
-{
-  "elements": [
-    {
-      "source": "https://cdn.discordapp.com/attachments/1275611378794631272/1375040284123205662/l3gacord-stare.gif?ex=68303d8e&is=682eec0e&hm=e07104ea61286186097d97da1a2abf876da78de7a22900b6135aecb9568e0ab9&",
-      "tags": ["reaction_image", "confused"]
-    },
-    {
-      "source": "https://cdn.discordapp.com/attachments/464070548792672288/1363977888960876634/cat-funny-cat.gif?ex=683034a6&is=682ee326&hm=6922fa575540f2a7bdaf56e59caba510b4cb733512c47cd8734587e0e6335536&",
-      "tags": ["cat", "shitpost"]
-    },
-    {
-      "source": "https://cdn.discordapp.com/attachments/935989994735169546/1233888244551123065/Cat_speech_bubble.gif?ex=68303bba&is=682eea3a&hm=f4ae0061390a161894bafbbc90d6385ac20fbb391effee22a2a51236557d64e5&",
-      "tags": ["speech_bubble", "cat"]
-    }
-  ]
-}
+[
+  {
+    "source": "https://cdn.discordapp.com/attachments/1275611378794631272/1375040284123205662/l3gacord-stare.gif?ex=68303d8e&is=682eec0e&hm=e07104ea61286186097d97da1a2abf876da78de7a22900b6135aecb9568e0ab9&",
+    "tags": ["reaction_image", "confused"]
+  },
+  {
+    "source": "https://cdn.discordapp.com/attachments/464070548792672288/1363977888960876634/cat-funny-cat.gif?ex=683034a6&is=682ee326&hm=6922fa575540f2a7bdaf56e59caba510b4cb733512c47cd8734587e0e6335536&",
+    "tags": ["cat", "shitpost"]
+  },
+  {
+    "source": "https://cdn.discordapp.com/attachments/935989994735169546/1233888244551123065/Cat_speech_bubble.gif?ex=68303bba&is=682eea3a&hm=f4ae0061390a161894bafbbc90d6385ac20fbb391effee22a2a51236557d64e5&",
+    "tags": ["speech_bubble", "caty"]
+  }
+]
