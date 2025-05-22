@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Client Talking to Server</title>
+</head>
+<body>
+  <h1>Frontend</h1>
+  <button id="getMessageBtn">Get Message</button>
+  <p id="message"></p>
+
+  <hr>
+
+  <input type="text" id="nameInput" placeholder="Enter your name">
+  <button id="sendNameBtn">Send Name</button>
+  <p id="response"></p>
+
+  <script>
+    document.getElementById('getMessageBtn').onclick = () => {
+      fetch('http://localhost:5000/api/message')
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('message').textContent = data.message;
+        });
+    };
+
+    document.getElementById('sendNameBtn').onclick = () => {
+      const name = document.getElementById('nameInput').value;
+
+      fetch('http://localhost:5000/api/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name })
+      })
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('response').textContent = data.response;
+      });
+    };
+  </script>
+</body>
+</html>

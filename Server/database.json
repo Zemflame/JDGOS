@@ -1,0 +1,19 @@
+{
+  "elements": [
+    {
+      "id": 1,
+      "name": "Element One",
+      "tags": ["tag1", "tag2", "tag3"]
+    },
+    {
+      "id": 2,
+      "name": "Element Two",
+      "tags": ["tag2", "tag4"]
+    },
+    {
+      "id": 3,
+      "name": "Element Three",
+      "tags": ["tag1"]
+    }
+  ]
+}
