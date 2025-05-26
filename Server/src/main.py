@@ -49,7 +49,7 @@ async def startAPIServer():
 
 async def main():
     await asyncio.gather(
-        # startAPIServer(),
+        startAPIServer(),
         startBot()
     )
 if __name__ == "__main__":
